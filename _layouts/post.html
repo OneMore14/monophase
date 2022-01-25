@@ -1,9 +1,9 @@
 ---
 layout: default
-math: true
 ---
 
 <article class="post">
+  {% include mathjax.html %}
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-meta">
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
